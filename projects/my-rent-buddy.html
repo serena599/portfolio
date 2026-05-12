@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Rent Buddy Website | Yongzhi Liang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a
+          class="brand"
+          href="../index.html#home"
+          aria-label="Yongzhi Liang home"
+        >
+          <span class="brand-mark"></span>
+          <strong>Yongzhi Liang</strong>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="../index.html#about">About Me</a>
+          <a href="../index.html#resume">Resume</a>
+          <a class="active" href="../index.html#projects">Projects</a>
+          <a href="../index.html#skills">Skills</a>
+          <a href="../index.html#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main class="project-detail-page">
+        <a class="back-link" href="../index.html#projects">Back to Projects</a>
+        <section class="project-detail-hero">
+          <div>
+            <p>May 2024 · PHP &amp; MySQL</p>
+            <h1>My Rent Buddy Website</h1>
+            <span>
+              A database-driven car rental web application supporting
+              administrator and renter workflows with practical business rules.
+            </span>
+          </div>
+          <div
+            class="project-media media-rent-buddy detail-visual single-project-image"
+            aria-hidden="true"
+          >
+            <img
+              class="project-screenshot"
+              src="../assets/projects/my-rent-buddy-vehicles.png"
+              alt=""
+            />
+          </div>
+        </section>
+
+        <section class="project-detail-content rent-detail-content">
+          <article>
+            <h2>Project Overview</h2>
+            <p>
+              My Rent Buddy is a PHP and MySQL-based car rental website built
+              around two user roles: Administrator and Renter. The application
+              connects frontend interfaces to backend rental records, return
+              dates, vehicle status, and cost notifications.
+            </p>
+          </article>
+          <article>
+            <h2>Core Features</h2>
+            <ul>
+              <li>User registration and login</li>
+              <li>Vehicle search and listing pages</li>
+              <li>Rental processing and return handling</li>
+              <li>Admin dashboard and status updates</li>
+            </ul>
+          </article>
+          <article>
+            <h2>My Contribution</h2>
+            <p>
+              I designed relational database tables, implemented role-based
+              workflows, connected interface actions to backend logic, and
+              applied structured development practices to keep the solution
+              maintainable.
+            </p>
+          </article>
+        </section>
+
+        <section class="project-gallery" aria-label="My Rent Buddy screenshots">
+          <figure>
+            <img
+              src="../assets/projects/my-rent-buddy-admin.png"
+              alt="My Rent Buddy admin dashboard screenshot"
+            />
+            <figcaption>
+              Administrator dashboard with rental metrics and admin actions.
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="../assets/projects/my-rent-buddy-vehicles.png"
+              alt="My Rent Buddy vehicle search and listings screenshot"
+            />
+            <figcaption>
+              Renter vehicle search interface with available vehicle listings.
+            </figcaption>
+          </figure>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
