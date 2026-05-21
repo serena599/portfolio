@@ -676,6 +676,23 @@ svg {
     linear-gradient(135deg, #0e5eea 0%, #4f7bf1 38%, #e4ebff 100%);
 }
 
+.media-nutrition {
+  background:
+    radial-gradient(circle at 76% 18%, rgba(35, 147, 98, 0.18), transparent 28%),
+    linear-gradient(135deg, #f5faf6 0%, #e7f1e7 46%, #e9ded2 100%);
+}
+
+.media-nutrition::before,
+.media-nutrition::after {
+  display: none;
+}
+
+.media-nutrition .project-screenshot {
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
+}
+
 .media-process {
   background: linear-gradient(135deg, #cfd3cd, #ebe3d8);
 }
@@ -695,6 +712,23 @@ svg {
 .media-rent-buddy::before,
 .media-rent-buddy::after {
   display: none;
+}
+
+.media-booking {
+  background:
+    radial-gradient(circle at 78% 18%, rgba(255, 78, 18, 0.18), transparent 26%),
+    linear-gradient(135deg, #f3f6fb 0%, #fff7f1 48%, #e9ded2 100%);
+}
+
+.media-booking::before,
+.media-booking::after {
+  display: none;
+}
+
+.media-booking .project-screenshot {
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
 }
 
 .single-project-image {
@@ -856,6 +890,24 @@ svg {
   line-height: 1.55;
 }
 
+.app-gallery {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.app-gallery img {
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  object-position: top center;
+  background: #f7f7f7;
+}
+
+.nutrition-gallery img {
+  aspect-ratio: 16 / 7;
+  object-fit: contain;
+  object-position: top center;
+  background: #f7f7f7;
+}
+
 
 .skills-section {
   background: #fbfaf8;
@@ -1008,7 +1060,7 @@ svg {
 }
 
 .stat:first-child strong {
-  font-size: 18px;
+  font-size: 28px;
   line-height: 1.15;
 }
 
