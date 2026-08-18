@@ -693,6 +693,28 @@ svg {
   background: #fff;
 }
 
+.media-lyastone {
+  background:
+    radial-gradient(circle at 82% 18%, rgba(190, 141, 83, 0.2), transparent 28%),
+    linear-gradient(135deg, #fffaf4 0%, #f5efe7 48%, #e9ded2 100%);
+}
+
+.media-lyastone::before,
+.media-lyastone::after {
+  display: none;
+}
+
+.media-lyastone .project-screenshot {
+  object-fit: cover;
+  object-position: top center;
+  background: #fff;
+}
+
+.live-store-link {
+  width: fit-content;
+  margin-top: 30px;
+}
+
 .media-process {
   background: linear-gradient(135deg, #cfd3cd, #ebe3d8);
 }
