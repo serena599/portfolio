@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20261025-golden" />
   </head>
   <body>
     <div class="page-shell">
@@ -22,9 +22,9 @@
 
         <nav class="site-nav" aria-label="Main navigation">
           <a class="active" href="#home">Home</a>
-          <a href="#about">About Me</a>
-          <a href="#resume">Resume</a>
           <a href="#projects">Projects</a>
+          <a href="#about">About Me</a>
+          <a href="#resume">Education</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -32,14 +32,14 @@
 
       <main>
         <section class="hero" id="home">
-          <div class="portrait-stage" aria-label="Portfolio profile card">
-            <div class="beige-panel"></div>
+          <div class="portrait-stage" aria-label="Yongzhi Liang portrait">
+            
             <article class="profile-card">
               <img
                 src="assets/yongzhi-liang-avatar.png"
                 alt="Portrait of Yongzhi Liang"
               />
-              <h1>Yongzhi<br />Liang</h1>
+              
               <div class="socials" aria-label="Social profile links">
                 <a
                   href="https://www.linkedin.com/in/yongzhi-liang-4002b029b/"
@@ -77,7 +77,7 @@
           </div>
 
           <div class="hero-copy">
-            <h2>Hi, I'm<br />Yongzhi Liang</h2>
+            <h1>Yongzhi<br />Liang</h1>
             <p class="lead">
               I turn data, business insights, and project experience into
               practical solutions.
@@ -100,7 +100,135 @@
                 See My Projects
               </a>
             </div>
-            <div class="intro-text">
+
+          </div>
+        </section>
+
+        <section
+          class="projects-section"
+          id="projects"
+          aria-labelledby="projects-heading"
+        >
+          <div class="projects-heading">
+            <h2 id="projects-heading"><span></span>Projects</h2>
+            <p>
+              Welcome to my portfolio. Here, you will find a curated selection
+              of my work that highlights my skills, analytical thinking, and
+              professional journey. Each project demonstrates my ability to
+              transform business questions into clear insights and practical
+              solutions.
+            </p>
+          </div>
+          <div class="project-list">
+            <a class="project-feature" href="projects/my-rent-buddy.html">
+              <article class="project-copy">
+                <div class="project-title-row">
+                  <h3>My Rent Buddy Website</h3>
+                  <strong>PHP &amp; MySQL Web Application</strong>
+                </div>
+                <p>
+                  I built a car rental web application with administrator and
+                  renter workflows, including registration, login, vehicle
+                  search, rental processing, return handling, and status
+                  updates.
+                </p>
+                <span>View Project</span>
+              </article>
+              <div
+                class="project-media media-rent-buddy single-project-image"
+              >
+                <img
+                  class="project-screenshot"
+                  src="assets/projects/my-rent-buddy-vehicles.png"
+                  alt="My Rent Buddy vehicle listings" loading="lazy"
+                />
+              </div>
+            </a>
+
+            <a class="project-feature" href="projects/booking-management.html">
+              <article class="project-copy">
+                <div class="project-title-row">
+                  <h3>Booking Management System</h3>
+                  <strong>Mobile Booking Application</strong>
+                </div>
+                <p>
+                  I designed a service booking workflow that supports service
+                  discovery, search and filtering, booking confirmation,
+                  membership management, and booking history.
+                </p>
+                <span>View Project</span>
+              </article>
+              <div
+                class="project-media media-booking single-project-image"
+              >
+                <img
+                  class="project-screenshot"
+                  src="assets/projects/service-list.png"
+                  alt="Booking Management service list" loading="lazy"
+                />
+              </div>
+            </a>
+
+            <a
+              class="project-feature"
+              href="projects/smart-nutrition-track.html"
+            >
+              <article class="project-copy">
+                <div class="project-title-row">
+                  <h3>Smart Nutrition Track App</h3>
+                  <strong>Swift iOS Application</strong>
+                </div>
+                <p>
+                  I built a nutrition tracking app concept that supports goal
+                  setting, food image input, progress tracking, recipe
+                  suggestions, and chatbot-style nutrition guidance.
+                </p>
+                <span>View Project</span>
+              </article>
+              <div
+                class="project-media media-nutrition single-project-image"
+              >
+                <img
+                  class="project-screenshot"
+                  src="assets/projects/goal- setting.png"
+                  alt="Smart Nutrition Track goal setting" loading="lazy"
+                />
+              </div>
+            </a>
+
+            <a
+              class="project-feature"
+              href="projects/lyastone-shopify-store.html"
+            >
+              <article class="project-copy">
+                <div class="project-title-row">
+                  <h3>Lyastone Jewellery Store</h3>
+                  <strong>Shopify E-commerce Website</strong>
+                </div>
+                <p>
+                  I built and manage Lyastone, a Shopify-based jewellery store,
+                  focusing on product presentation, storefront structure,
+                  customer shopping flow, and online business operations.
+                </p>
+                <span>View Project</span>
+              </article>
+              <div
+                class="project-media media-lyastone single-project-image"
+              >
+                <img
+                  class="project-screenshot"
+                  src="assets/projects/lyastone-homepage.png"
+                  alt="Lyastone jewellery storefront" loading="lazy"
+                />
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <section class="about" id="about" aria-labelledby="about-heading">
+          <h2 id="about-heading">About Me</h2>
+          <div class="title-line"></div>
+                      <div class="intro-text">
               <p>
                 Welcome to my portfolio. I'm Yongzhi Liang, a motivated and
                 detail-oriented professional with a strong interest in business
@@ -120,12 +248,6 @@
                 create practical value for teams, organizations, and clients.
               </p>
             </div>
-          </div>
-        </section>
-
-        <section class="about" id="about" aria-labelledby="about-heading">
-          <h2 id="about-heading">About Me</h2>
-          <div class="title-line"></div>
           <div class="about-grid">
             <article>
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -233,12 +355,12 @@
           aria-labelledby="resume-heading"
         >
           <div class="section-heading">
-            <p>Education</p>
+            
             <h2 id="resume-heading">Education</h2>
           </div>
           <div class="resume-layout education-only">
             <article class="timeline-panel">
-              <h3>Education</h3>
+              
               <div class="timeline-item">
                 <span>Sep 2023 - Jul 2025</span>
                 <h4>Master of Information Technology</h4>
@@ -261,130 +383,7 @@
           </div>
         </section>
 
-        <section
-          class="projects-section"
-          id="projects"
-          aria-labelledby="projects-heading"
-        >
-          <div class="projects-heading">
-            <h2 id="projects-heading"><span></span>Projects</h2>
-            <p>
-              Welcome to my portfolio. Here, you will find a curated selection
-              of my work that highlights my skills, analytical thinking, and
-              professional journey. Each project demonstrates my ability to
-              transform business questions into clear insights and practical
-              solutions.
-            </p>
-          </div>
-          <div class="project-list">
-            <a class="project-feature" href="projects/my-rent-buddy.html">
-              <article class="project-copy">
-                <div class="project-title-row">
-                  <h3>My Rent Buddy Website</h3>
-                  <strong>PHP &amp; MySQL Web Application</strong>
-                </div>
-                <p>
-                  I built a car rental web application with administrator and
-                  renter workflows, including registration, login, vehicle
-                  search, rental processing, return handling, and status
-                  updates.
-                </p>
-                <span>View Project</span>
-              </article>
-              <div
-                class="project-media media-rent-buddy single-project-image"
-                aria-hidden="true"
-              >
-                <img
-                  class="project-screenshot"
-                  src="assets/projects/my-rent-buddy-vehicles.png"
-                  alt=""
-                />
-              </div>
-            </a>
 
-            <a class="project-feature" href="projects/booking-management.html">
-              <article class="project-copy">
-                <div class="project-title-row">
-                  <h3>Booking Management System</h3>
-                  <strong>Mobile Booking Application</strong>
-                </div>
-                <p>
-                  I designed a service booking workflow that supports service
-                  discovery, search and filtering, booking confirmation,
-                  membership management, and booking history.
-                </p>
-                <span>View Project</span>
-              </article>
-              <div
-                class="project-media media-booking single-project-image"
-                aria-hidden="true"
-              >
-                <img
-                  class="project-screenshot"
-                  src="assets/projects/service-list.png"
-                  alt=""
-                />
-              </div>
-            </a>
-
-            <a
-              class="project-feature"
-              href="projects/smart-nutrition-track.html"
-            >
-              <article class="project-copy">
-                <div class="project-title-row">
-                  <h3>Smart Nutrition Track App</h3>
-                  <strong>Swift iOS Application</strong>
-                </div>
-                <p>
-                  I built a nutrition tracking app concept that supports goal
-                  setting, food image input, progress tracking, recipe
-                  suggestions, and chatbot-style nutrition guidance.
-                </p>
-                <span>View Project</span>
-              </article>
-              <div
-                class="project-media media-nutrition single-project-image"
-                aria-hidden="true"
-              >
-                <img
-                  class="project-screenshot"
-                  src="assets/projects/goal- setting.png"
-                  alt=""
-                />
-              </div>
-            </a>
-
-            <a
-              class="project-feature"
-              href="projects/lyastone-shopify-store.html"
-            >
-              <article class="project-copy">
-                <div class="project-title-row">
-                  <h3>Lyastone Jewellery Store</h3>
-                  <strong>Shopify E-commerce Website</strong>
-                </div>
-                <p>
-                  I built and manage Lyastone, a Shopify-based jewellery store,
-                  focusing on product presentation, storefront structure,
-                  customer shopping flow, and online business operations.
-                </p>
-                <span>View Project</span>
-              </article>
-              <div
-                class="project-media media-lyastone single-project-image"
-                aria-hidden="true"
-              >
-                <img
-                  class="project-screenshot"
-                  src="assets/projects/lyastone-homepage.png"
-                  alt=""
-                />
-              </div>
-            </a>
-          </div>
-        </section>
 
         <section
           class="content-section skills-section"
@@ -392,7 +391,7 @@
           aria-labelledby="skills-heading"
         >
           <div class="section-heading">
-            <p>Skills</p>
+            
             <h2 id="skills-heading">Technical Skills</h2>
           </div>
           <div class="skills-layout">
@@ -447,41 +446,42 @@
           id="contact"
           aria-labelledby="contact-heading"
         >
-          <div class="contact-copy">
-            <p>Contact</p>
+          <p class="contact-label">Contact</p>
+          <div class="contact-body">
             <h2 id="contact-heading">Let's Work Together</h2>
-            <span>
-              I am open to business analyst, data analyst, and project
-              coordination opportunities where clear thinking and practical
-              solutions matter.
-            </span>
+            <p class="contact-intro">I am open to business analyst, data analyst, and project coordination opportunities where clear thinking and practical solutions matter.</p>
+            <dl class="contact-details">
+              <div><dt>Email</dt><dd><a href="mailto:serenauo@outlook.com">serenauo@outlook.com</a></dd></div>
+              <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/yongzhi-liang-4002b029b/" target="_blank" rel="noopener noreferrer">Yongzhi Liang ↗</a></dd></div>
+              <div><dt>GitHub</dt><dd><a href="https://github.com/serena599" target="_blank" rel="noopener noreferrer">serena599 ↗</a></dd></div>
+              <div><dt>Phone</dt><dd><a href="tel:0416730508">0416730508</a></dd></div>
+            </dl>
           </div>
-          <form class="contact-form" action="#" method="post">
-            <label>
-              <span>Name</span>
-              <input type="text" name="name" placeholder="Your name" />
-            </label>
-            <label>
-              <span>Email</span>
-              <input
-                type="email"
-                name="email"
-                placeholder="your.email@example.com"
-              />
-            </label>
-            <label class="full-field">
-              <span>Message</span>
-              <textarea
-                name="message"
-                rows="5"
-                placeholder="Tell me about your project"
-              ></textarea>
-            </label>
-            <button class="button primary" type="submit">Send Message</button>
-          </form>
         </section>
       </main>
 
+
+      <div class="retriever-scene" aria-hidden="true">
+        <div class="retriever-travel"><div class="retriever-facing">
+          <svg class="golden-retriever" viewBox="0 0 180 125">
+            <g class="dog-tail"><path d="M128 64C150 66 161 48 158 32c13 15 9 34-4 42-9 5-20 4-27 0Z" fill="#dba24f"/><path d="M146 64q12-8 13-19" fill="none" stroke="#f2ce8a" stroke-width="4" stroke-linecap="round"/></g>
+            <g class="dog-leg dog-leg-far-front"><path d="M62 75 57 110h15l3-35Z" fill="#bd833b"/></g>
+            <g class="dog-leg dog-leg-far-back"><path d="m118 74 6 36h14l-7-40Z" fill="#bd833b"/></g>
+            <g class="dog-body"><path d="M49 48C70 42 103 42 123 51c18 8 21 30 8 39-17 8-56 9-76-2Z" fill="#e4b365"/>
+            <path d="M51 55c-7 14-7 28 2 38l7-5 4 8 6-10 4 4 4-11-7-22Z" fill="#f5d69b"/>
+            <path d="M48 27c15-7 31 0 35 15 4 11-3 24-15 28-10 4-24 0-29-8l-15-1c-7-1-10-7-7-13l17-9c2-6 6-10 14-12Z" fill="#edc17d"/>
+            <path class="dog-ear" d="M64 30c13 0 20 10 17 23-1 10-5 18-11 19-8 1-15-7-14-16l2-20Z" fill="#cc9347"/>
+            <path d="M19 47q-7 0-5 6 1 4 8 3l4-5Z" fill="#443b30"/>
+            <circle cx="43" cy="42" r="3" fill="#3d352b"/><circle cx="42" cy="41" r="1" fill="#fff7e7"/>
+            <path d="M25 59q10 7 19-1" fill="none" stroke="#87623c" stroke-width="2" stroke-linecap="round"/>
+            <path class="dog-tongue" d="M30 63v7c0 6 9 6 9 0v-9Z" fill="#d99084"/>
+            <path d="M48 70q12 9 25 0" fill="none" stroke="#426957" stroke-width="5"/><circle cx="56" cy="77" r="4" fill="#e6be68"/>
+            </g>
+            <g class="dog-leg dog-leg-near-front"><path d="m60 80-2 29c-8 0-10 8-4 9h19l4-38Z" fill="#edc17d"/><path d="M57 114h12" stroke="#f8dfa9" stroke-width="3" stroke-linecap="round"/></g>
+            <g class="dog-leg dog-leg-near-back"><path d="m113 79 5 30c-8 0-10 8-3 9h18l-5-40Z" fill="#e4b365"/><path d="M117 114h11" stroke="#f8dfa9" stroke-width="3" stroke-linecap="round"/></g>
+          </svg>
+        </div></div>
+      </div>
       <footer class="site-footer">
         <p class="copyright">
           &copy; 2026 Yongzhi Liang. All rights reserved.<br />
@@ -514,7 +514,7 @@
         <div class="follow">
           <strong>Follow Me</strong>
           <span>
-            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="https://www.linkedin.com/in/yongzhi-liang-4002b029b/" aria-label="LinkedIn">in</a>
             <a
               href="https://github.com/serena599"
               aria-label="GitHub"
@@ -522,10 +522,11 @@
               rel="noopener noreferrer"
               >gh</a
             >
-            <a href="#" aria-label="Twitter">tw</a>
+
           </span>
         </div>
       </footer>
     </div>
+    <script src="site.js?v=20261025-golden" defer></script>
   </body>
 </html>
